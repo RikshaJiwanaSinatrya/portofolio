@@ -3,11 +3,21 @@
     <nav class="navbar section-shell">
       <router-link class="logo" to="/">TRYA<span>.</span></router-link>
 
+      <button
+        class="menu-btn"
+        type="button"
+        :aria-expanded="isOpen"
+        aria-controls="site-nav"
+        aria-label="Toggle navigation menu"
+        @click="isOpen = !isOpen"
+      >
+        Menu
+      </button>
 
-      <ul class="nav-links">
-        <li><router-link to="/">Home</router-link></li>
-        <li><router-link to="/about">About</router-link></li>
-        <li><router-link to="/contact">Contact</router-link></li>
+      <ul id="site-nav" class="nav-links" :class="{ open: isOpen }">
+        <li><router-link to="/" @click="closeMenu">Home</router-link></li>
+        <li><router-link to="/about" @click="closeMenu">About</router-link></li>
+        <li><router-link to="/contact" @click="closeMenu">Contact</router-link></li>
       </ul>
     </nav>
   </header>
@@ -17,6 +27,9 @@
 import { ref } from 'vue';
 
 const isOpen = ref(false);
+const closeMenu = () => {
+  isOpen.value = false;
+};
 </script>
 
 <style scoped>
@@ -78,8 +91,13 @@ const isOpen = ref(false);
 }
 
 @media (max-width: 760px) {
+  .navbar {
+    position: relative;
+  }
+
   .menu-btn {
     display: inline-flex;
+    align-items: center;
     padding: 9px 14px;
   }
 

@@ -141,6 +141,7 @@ const sendToGmail = () => {
 .contact-card h3 {
   font-size: 1.02rem;
   line-height: 1.4;
+  overflow-wrap: anywhere;
 }
 
 .meta {
@@ -209,12 +210,58 @@ button {
 }
 
 @media (max-width: 920px) {
+  .contact-hero {
+    padding-top: 60px;
+  }
+
   .contact-content {
     grid-template-columns: 1fr;
+    gap: 16px;
   }
 
   .field-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .contact-hero {
+    padding: 48px 0 14px;
+  }
+
+  .eyebrow {
+    margin-bottom: 10px;
+    padding: 6px 12px;
+    font-size: 0.78rem;
+  }
+
+  .intro {
+    margin-top: 8px;
+  }
+
+  .contact-content {
+    padding-bottom: 40px;
+  }
+
+  .contact-card {
+    border-radius: 14px;
+    padding: 16px;
+  }
+
+  .contact-form {
+    border-radius: 14px;
+    padding: 16px;
+    gap: 14px;
+  }
+
+  input,
+  textarea {
+    font-size: 16px;
+  }
+
+  button {
+    width: 100%;
+    justify-self: stretch;
   }
 }
 </style>
