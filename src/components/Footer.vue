@@ -17,7 +17,7 @@
         </div>
         <div class="column">
           <h4>Contact</h4>
-          <a href="mailto:sinatryariksha@gmail.com">sinatryariksha@gmail.com</a>
+          <a href="mailto:sinatryariksha@gmail.com">Email</a>
           <a href="https://github.com/RikshaJiwanaSinatrya" target="_blank" rel="noreferrer">GitHub</a>
           <a href="https://www.linkedin.com/in/riksha-jiwana-sinatrya-0a27a93a2/" target="_blank" rel="noreferrer">LinkedIn</a>
         </div>

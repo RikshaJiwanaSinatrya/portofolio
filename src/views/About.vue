@@ -99,18 +99,6 @@ import expPortfolio from "../assets/image/WhatsApp Image 2026-01-08 at 12.47.53 
 
     <div class="exp-container">
       <article class="exp-row">
-        <img class="exp-photo" :src="expWebDev" alt="Web developer project" />
-        <div class="exp-card">
-          <p class="exp-year">2024 - Sekarang</p>
-          <h3 class="exp-title">Web Developer Student Project</h3>
-          <p class="exp-place">Self Initiated</p>
-          <p class="exp-desc">
-            Mengembangkan website responsif menggunakan Vue dan CSS modern dengan fokus pada komponen reusable.
-          </p>
-        </div>
-      </article>
-
-      <article class="exp-row">
         <img class="exp-photo" :src="expUiUx" alt="UI UX competition winner" />
         <div class="exp-card">
           <p class="exp-year">2024</p>
@@ -123,13 +111,38 @@ import expPortfolio from "../assets/image/WhatsApp Image 2026-01-08 at 12.47.53 
       </article>
 
       <article class="exp-row">
-        <img class="exp-photo" :src="expPortfolio" alt="Frontend portfolio development" />
+        <img class="exp-photo" alt="Web developer project" />
+        <div class="exp-card">
+          <p class="exp-year">2024 - Sekarang</p>
+          <h3 class="exp-title">Web Developer Student Project</h3>
+          <p class="exp-place">Self Initiated</p>
+          <p class="exp-desc">
+            Mengembangkan website responsif menggunakan Vue dan CSS modern dengan fokus pada komponen reusable.
+          </p>
+        </div>
+      </article>
+
+      
+      <article class="exp-row">
+        <img class="exp-photo"  alt="Frontend portfolio development" />
         <div class="exp-card">
           <p class="exp-year">2023 - 2025</p>
           <h3 class="exp-title">Frontend Portfolio Development</h3>
           <p class="exp-place">Personal Branding Project</p>
           <p class="exp-desc">
             Membangun portfolio end-to-end dari riset konten, struktur layout, hingga implementasi interaksi yang halus.
+          </p>
+        </div>
+      </article>
+
+      <article class="exp-row">
+        <img class="exp-photo" :src="expWebDev" alt="Frontend portfolio development" />
+        <div class="exp-card">
+          <p class="exp-year">2025</p>
+          <h3 class="exp-title">Teater Jumat Sore</h3>
+          <p class="exp-place">Teater</p>
+          <p class="exp-desc">
+            Berperan dalam produksi pertunjukan teater mulai dari latihan rutin, eksplorasi karakter, hingga tampil di panggung, sekaligus mengasah komunikasi, kerja tim, dan kepercayaan diri.
           </p>
         </div>
       </article>
