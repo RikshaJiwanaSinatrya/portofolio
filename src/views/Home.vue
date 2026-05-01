@@ -120,9 +120,8 @@ body {
   top: 40%;
   left: 50%;
   width: 600px;
-  height: 600px;
+  height: 60px;
   transform: translateX(-50%);
-  background: radial-gradient(circle, rgba(255, 85, 51, 0.06) 0%, transparent 70%);
   pointer-events: none;
   z-index: -1;
 }
