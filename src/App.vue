@@ -29,5 +29,6 @@ import './assets/main.css';
 .app-content {
   min-height: calc(100vh - 200px);
   padding-top: 0;
+  margin: 0;
 }
 </style>

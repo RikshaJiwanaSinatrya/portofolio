@@ -94,6 +94,14 @@ useTypingEffect(
 </template>
 
 <style scoped>
+main {
+  padding-top: 20px;
+}
+
+body {
+  margin: 0;
+}
+
 .hero {
   padding: 16px 0 56px;
   position: relative;
